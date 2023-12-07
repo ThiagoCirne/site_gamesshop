@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(stars.jpg);
+    background-size: cover;
+}
+
+
+header {   
+    color: rgba(106, 15, 139, 0.971);
+    padding: 12px 0;
+}
+
+
+
+header .estrutura h1 {
+    font-size: 40px;
+    font-weight: normal;
+    color:#bb94ed;
+    font-family: 'bungee';
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    font-weight: normal;
+    color: #9170bc;    
+    text-decoration: none;
+    padding-right: 8px;
+    font-size: 25px;
+    margin-left: 15px;
+    font-family: 'bungee';
+}
+
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+.estrutura, section div, #produtos > h3 {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.estrutura {
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+section .estrutura h2 {
+    position: absolute;
+    top: 65%;
+    left: 37%;
+    font-size: 32px;
+    font-weight: bold;    ;
+    color: #bae0ccf3;
+    font-family:  'Open Sans', 'Pacífico', 'Roboto', sans-serif;   
+    border-radius: 9px;
+}
+
+.estrutura img {
+    width: 100%;
+    position: relative;
+    opacity: 0.5;
+    border-radius: 8px;
+}
+
+section .sobre img {
+    width: 50%;
+    margin-right: 32px;
+    opacity: 0.7;
+    border-radius: 8px;
+}
+
+section .sobre {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+section .sobre h3 {
+    font-size: 28px;
+    text-decoration: underline;
+    color: #c1b5b5;
+}
+
+section .sobre p {
+    font-size: 25px;
+    color: #fff;
+}
+
+
+#produtos .teste {
+    display:flex;
+}
+
+#produtos > h3 {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 28px;    
+    border-radius: 10px;
+    color: #fff;
+    
+}
+
+.servicos {
+    display: table;
+    margin: 50px 0;
+    justify-content: space-between;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.servicos img {
+    height: 200px;
+    border-radius: 8px;
+    
+}
+
+.servicos img:hover {
+    zoom: 120%;
+}
+
+
+#contato .container {
+    display: block;
+}
+
+#contato h2, #contato h3 {
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+}
+
+#contato .metodos-de-contato {
+    display: flex;
+    margin:  50px 0;
+    justify-content: space-between;
+    align-items: self-start;
+    
+    
+}
+
+.metodos-de-contato form input, textarea, button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+
+.metodos-de-contato h3 {
+    margin-bottom: 16px;
+    
+}
+
+form textarea {
+    height: 180px;
+}
+
+.social-links li {
+    display: inline;
+    
+
+}
+
+.social-links img {
+    height: 24px;
+    margin-right: 4px
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links li a  {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    background-color: aqua;
+    padding: 15px 0;
+}
